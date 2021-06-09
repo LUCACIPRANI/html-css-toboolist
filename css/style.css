@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-/* common */
-
-/* /common */
-
-
 /* Inizio Header  */
 
 header{
@@ -19,7 +14,6 @@ header{
 #logo{
     height: 70px;
     vertical-align: middle;
-    
 }
 
 #logo_text{
@@ -28,21 +22,20 @@ header{
     font-weight: 750;
     color: #0F0F0F;
     vertical-align: middle;
-
 }
-
-
 /* Fine Header  */
 
 
-
-/* Inizio top_main  */
+/* common */
 
 main{
     background-color: #F6F8F9;
     height: 1000px;
     padding-top: 50px;
 }
+/* /common */
+
+/* Inizio contenitore  */
 
 .contenitore{
     height: 800px;
@@ -51,7 +44,9 @@ main{
     background-color: white;
     border-top: 30px;
 }
+/* Fine Container  */
 
+/* inizio intro_main  */
 .intro_main{
     border-bottom: 0.8px solid #F6F8F9;
     padding: 15px;
@@ -84,9 +79,9 @@ main{
     color: #D6D8DD;
 }
 
-/* Fine top_main  */
+/* Fine intro_main  */
 
-/* Inizio main */
+/* Inizio Corpo e lista */
 
 .corpo_main{
     padding-left: 20px;
@@ -105,25 +100,32 @@ main{
 }
 
 #add_taskB {
+    background-color: #46ABEA;
+    color: white;
+
+
     height: 30px;
     width: 80px;
-    background-color: #46ABEA;
     border-radius: 8px;
     margin-right: auto;
-    color: white;
     font-size: 15px;
     border-color: transparent;
+    margin-top: 10px;
+
 }
 
 #add_taskP {
+    background-color: #9C72E4;
+    color: white;
+
+
     height: 30px;
     width: 80px;
-    background-color: #9C72E4;
     border-radius: 8px;
     margin-right: auto;
-    color: white;
     font-size: 15px;
     border-color: transparent;
+    margin-top: 10px;
 }
 
 #add_taskW {
@@ -135,6 +137,8 @@ main{
     color: white;
     font-size: 15px;
     border-color: transparent;
+    margin-top: 10px;
+
 }
 
 #add_taskO {
@@ -146,6 +150,8 @@ main{
     color: white;
     font-size: 15px;
     border-color: transparent;
+    margin-top: 10px;
+
 }
 
 #add_taskPi {
@@ -157,6 +163,8 @@ main{
     color: white;
     font-size: 15px;
     border-color: transparent;
+    margin-top: 10px;
+
 }
 
 #add_taskG {
@@ -168,6 +176,8 @@ main{
     color: white;
     font-size: 15px;
     border-color: transparent;
+    margin-top: 10px;
+
 }
 
 #check {
@@ -179,10 +189,11 @@ main{
     color: green;
     font-size: 15px;
     border-color: green;
-    border-radius: 10px;
+    border-radius: 50%;
     border: 2px solid green;
-    vertical-align: middle;
     line-height: 20px;
+    text-align: center;
+    margin-right: 10px;
     
 }
 
@@ -195,11 +206,18 @@ main{
     color: red;
     font-size: 15px;
     border-color: green;
-    border-radius: 10px;
+    border-radius: 50%;
     border: 2px solid red;
-    vertical-align: middle-right;
     line-height: 20px;
+    text-align: center;
+    margin-right: 10px;
 }
 
+
+#no_buttom{
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 10px;
 }
-/* Fine main  */
+/* Inizio Corpo e lista */
+

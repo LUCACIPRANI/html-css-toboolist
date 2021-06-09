@@ -75,7 +75,7 @@ main{
     border-radius: 8px;
     margin-right: auto;
     font-size: 15px;
-    border-color: #989fa5;
+    border-color: #D3D8DC;
     background-color: white;
     color: gray;
 }
@@ -99,6 +99,11 @@ main{
     padding-left: 30px;
 }
 
+.title_gras{
+    font-size: 30px;
+    font-weight: bold;
+}
+
 #add_taskB {
     height: 30px;
     width: 80px;
@@ -113,7 +118,7 @@ main{
 #add_taskP {
     height: 30px;
     width: 80px;
-    background-color: purple;
+    background-color: #9C72E4;
     border-radius: 8px;
     margin-right: auto;
     color: white;
@@ -124,7 +129,7 @@ main{
 #add_taskW {
     height: 30px;
     width: 80px;
-    background-color: #256d7b;
+    background-color: #64C0A9;
     border-radius: 8px;
     margin-right: auto;
     color: white;
@@ -135,7 +140,7 @@ main{
 #add_taskO {
     height: 30px;
     width: 80px;
-    background-color: orange;
+    background-color: #F39F33;
     border-radius: 8px;
     margin-right: auto;
     color: white;
@@ -146,7 +151,7 @@ main{
 #add_taskPi {
     height: 30px;
     width: 80px;
-    background-color: pink;
+    background-color: #D763A1;
     border-radius: 8px;
     margin-right: auto;
     color: white;
@@ -157,7 +162,7 @@ main{
 #add_taskG {
     height: 30px;
     width: 80px;
-    background-color: green;
+    background-color: #B9CF41;
     border-radius: 8px;
     margin-right: auto;
     color: white;
@@ -166,15 +171,35 @@ main{
 }
 
 #check {
-    height: 50px;
-    width: 50px;
-    background-color: red;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: white;
     margin-right: auto;
     color: green;
     font-size: 15px;
-    border: 20px;
-    border-color: red;
-    border-radius: 4px;
+    border-color: green;
+    border-radius: 10px;
+    border: 2px solid green;
+    vertical-align: middle;
+    line-height: 20px;
     
+}
+
+#cross {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin-right: auto;
+    color: red;
+    font-size: 15px;
+    border-color: green;
+    border-radius: 10px;
+    border: 2px solid red;
+    vertical-align: middle-right;
+    line-height: 20px;
+}
+
 }
 /* Fine main  */

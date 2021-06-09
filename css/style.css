@@ -13,18 +13,20 @@
 
 header{
     padding-left: 10px;
-    line-height: 70px;
+    line-height: 90px;
 }
 
 #logo{
-    height: 50px;
+    height: 70px;
     vertical-align: middle;
     
 }
 
 #logo_text{
-    font-size: 40px;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 750;
+    color: #0F0F0F;
     vertical-align: middle;
 
 }
@@ -37,40 +39,142 @@ header{
 /* Inizio top_main  */
 
 main{
-    background-color: lightgrey;
+    background-color: #F6F8F9;
     height: 1000px;
+    padding-top: 50px;
 }
 
-.section{
+.contenitore{
     height: 800px;
     width: 80%;
     margin: 0 auto;
-    padding: 10px;
     background-color: white;
     border-top: 30px;
 }
 
 .intro_main{
-    
+    border-bottom: 0.8px solid #F6F8F9;
+    padding: 15px;
+    padding-left: 50px;
 }
 
-#add_task{
+#add_task {
+    height: 30px;
+    width: 80px;
     background-color: #46ABEA;
+    border-radius: 8px;
+    border-color: transparent;
+    margin-right: auto;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #Add_section{
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    margin-right: auto;
+    font-size: 15px;
+    border-color: #989fa5;
     background-color: white;
     color: gray;
-    font-size: 25px;
-
 }
 
+.text_section{
+    color: #D6D8DD;
+}
 
 /* Fine top_main  */
 
-
 /* Inizio main */
 
+.corpo_main{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section{
+    border-bottom: 0.5px solid white;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+#add_taskB {
+    height: 30px;
+    width: 80px;
+    background-color: #46ABEA;
+    border-radius: 8px;
+    margin-right: auto;
+    color: white;
+    font-size: 15px;
+    border-color: transparent;
+}
+
+#add_taskP {
+    height: 30px;
+    width: 80px;
+    background-color: purple;
+    border-radius: 8px;
+    margin-right: auto;
+    color: white;
+    font-size: 15px;
+    border-color: transparent;
+}
+
+#add_taskW {
+    height: 30px;
+    width: 80px;
+    background-color: #256d7b;
+    border-radius: 8px;
+    margin-right: auto;
+    color: white;
+    font-size: 15px;
+    border-color: transparent;
+}
+
+#add_taskO {
+    height: 30px;
+    width: 80px;
+    background-color: orange;
+    border-radius: 8px;
+    margin-right: auto;
+    color: white;
+    font-size: 15px;
+    border-color: transparent;
+}
+
+#add_taskPi {
+    height: 30px;
+    width: 80px;
+    background-color: pink;
+    border-radius: 8px;
+    margin-right: auto;
+    color: white;
+    font-size: 15px;
+    border-color: transparent;
+}
+
+#add_taskG {
+    height: 30px;
+    width: 80px;
+    background-color: green;
+    border-radius: 8px;
+    margin-right: auto;
+    color: white;
+    font-size: 15px;
+    border-color: transparent;
+}
+
+#check {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin-right: auto;
+    color: green;
+    font-size: 15px;
+    border: 20px;
+    border-color: red;
+    border-radius: 4px;
+    
+}
 /* Fine main  */

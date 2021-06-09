@@ -10,18 +10,25 @@
 
 
 /* Inizio Header  */
+
+header{
+    padding-left: 10px;
+    line-height: 70px;
+}
+
 #logo{
     height: 50px;
+    vertical-align: middle;
+    
 }
 
 #logo_text{
     font-size: 40px;
     font-weight: 750;
+    vertical-align: middle;
+
 }
 
-#first_line{
-    color: red;
-}
 
 /* Fine Header  */
 
@@ -30,8 +37,36 @@
 /* Inizio top_main  */
 
 main{
-    background-color: red;
+    background-color: lightgrey;
+    height: 1000px;
 }
+
+.section{
+    height: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    border-top: 30px;
+}
+
+.intro_main{
+    
+}
+
+#add_task{
+    background-color: #46ABEA;
+    color: white;
+    font-size: 25px;
+}
+
+#Add_section{
+    background-color: white;
+    color: gray;
+    font-size: 25px;
+
+}
+
 
 /* Fine top_main  */
 

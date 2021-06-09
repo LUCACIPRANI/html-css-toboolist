@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+
+/* /common */
+
+
+/* Inizio Header  */
+#logo{
+    height: 50px;
+}
+
+#logo_text{
+    font-size: 40px;
+    font-weight: 750;
+}
+
+#first_line{
+    color: red;
+}
+
+/* Fine Header  */
+
+
+
+/* Inizio top_main  */
+
+main{
+    background-color: red;
+}
+
+/* Fine top_main  */
+
+
+/* Inizio main */
+
+/* Fine main  */
